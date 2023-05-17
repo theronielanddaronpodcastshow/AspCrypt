@@ -12,7 +12,7 @@
         <NeutralLanguage>en-GB</NeutralLanguage>
         <AssemblyName>Decrypt</AssemblyName>
         <PackageId>Decrypt</PackageId>
-        <Title>Recrypt</Title>
+        <Title>Decrypt</Title>
         <Authors>RDPS</Authors>
         <ApplicationIcon>RDPS-logo.ico</ApplicationIcon>
         <PackageIcon>RDPS-logo.ico</PackageIcon>
