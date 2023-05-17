@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net48</TargetFramework>
+        <LangVersion>11</LangVersion>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Recrypt</RootNamespace>
+        <Company>RDPS</Company>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <NeutralLanguage>en-GB</NeutralLanguage>
+        <AssemblyName>Recrypt</AssemblyName>
+        <PackageId>Recrypt</PackageId>
+        <Title>Recrypt</Title>
+        <Authors>RDPS</Authors>
+        <ApplicationIcon>RDPS-logo.ico</ApplicationIcon>
+        <PackageIcon>RDPS-logo.ico</PackageIcon>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="System.Web" />
+    </ItemGroup>
+</Project>
